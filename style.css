@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+  }
+  
+  .left-logo, .right-logo {
+    height: 60px;
+  }
+  
+  .title {
+    text-align: center;
+  }
+  
+  .title h2 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .title h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .blue-line {
+    height: 10px;
+    background-color: #002147;
+  }
+  
+  .login-container {
+    width: 450px;
+    margin: 40px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .login-title {
+    background-color: #002147;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
+  
+  label {
+    margin: 10px 0 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 8px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+  }
+  
+  .green {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .captcha-box {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .captcha-text {
+    background-color: #00008B;
+    color: white;
+    padding: 10px 15px;
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .refresh-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  button {
+    background-color: #2E8B57;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  a {
+    color: blue;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #002147;
+    color: white;
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+
+  @media (max-width: 600px) {
+    .login-container {
+      width: 90%;
+      margin: 20px auto;
+    }
+    
+    .captcha-box {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .captcha-text {
+      margin-bottom: 10px;
+    }
+  }
+  
